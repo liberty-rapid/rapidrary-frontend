@@ -153,7 +153,7 @@ export default function Header({ book, toggleTOC, isTOCOpen }: HeaderProps) {
                 backgroundColor={book ? `${bgColor}d0` : bgColor}
                 backdropFilter={book ? 'blur(10px)' : undefined}
             >
-                <Flex minW="150px" alignItems="center">
+                <Flex minW="120px" alignItems="center">
                     {book ? (
                         <>
                             <IconButton
@@ -186,7 +186,7 @@ export default function Header({ book, toggleTOC, isTOCOpen }: HeaderProps) {
                         />
                     )}
                 </Flex>
-                <Flex minW="150px" justifyContent="center" alignItems="center">
+                <Flex minW={{ base: 'none', md: '150px' }} justifyContent="center" alignItems="center">
                     {isNotPurchasedBook && (
                         <Button
                             visibility={{ base: isTOCOpen ? 'hidden' : 'visible', xl: 'visible' }}
@@ -208,7 +208,7 @@ export default function Header({ book, toggleTOC, isTOCOpen }: HeaderProps) {
                         </Text>
                     )}
                 </Flex>
-                <Flex minW="150px" justifyContent="flex-end">
+                <Flex minW="120px" justifyContent="flex-end">
                     {fullMenu}{!showFullMenu && hamburgerIcon}
                 </Flex>
             </Flex>
