@@ -1,0 +1,35 @@
+.light-link {
+    color: #333; /* 라이트 모드에서 기본 텍스트 색상 */
+    text-decoration: none;
+    transition: color 0.025s ease;
+}
+
+.light-link:hover {
+    color: blue; /* 라이트 모드에서 대비가 좋은 모던한 파란색 */
+}
+
+.dark-link {
+    color: #E2E8F0; /* 다크 모드에서 기본 텍스트 색상 */
+    text-decoration: none;
+    transition: color 0.025s ease;
+}
+
+.dark-link:hover {
+    color: #4BA3FF; /* 다크 모드에서 대비가 좋은 모던한 파란색 */
+}
+
+.active-light-link {
+    color: blue; /* 라이트 모드에서 active 상태의 파란색 */
+}
+
+.disabled-light-link {
+    color: #808080; /* 라이트 모드에서 자연스러운 회색 */
+}
+
+.active-dark-link {
+    color: #4BA3FF; /* 다크 모드에서 active 상태의 파란색 */
+}
+
+.disabled-dark-link {
+    color: #808080; /* 다크 모드에서 자연스러운 회색 */
+}

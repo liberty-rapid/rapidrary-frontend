@@ -1,0 +1,50 @@
+{
+  "name": "rapidrary-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.1.1",
+    "@chakra-ui/react": "^2.8.2",
+    "@tanstack/react-query": "^5.66.0",
+    "@tosspayments/tosspayments-sdk": "^2.3.1",
+    "axios": "^1.7.7",
+    "highlight.js": "^11.10.0",
+    "html-react-parser": "^5.1.16",
+    "i18next": "^24.0.2",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-http-backend": "^3.0.1",
+    "katex": "^0.16.11",
+    "path-browserify": "^1.0.1",
+    "react": "^18.3.1",
+    "react-device-detect": "^2.2.3",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "^15.1.2",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.26.2",
+    "use-local-storage-state": "^19.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/katex": "^0.16.7",
+    "@types/path-browserify": "^1.0.3",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-helmet": "^6.1.11",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1"
+  }
+}

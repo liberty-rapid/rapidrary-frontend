@@ -1,0 +1,26 @@
+.light-theme .sidebarblock {
+  border: 1px solid #d0e1e6;
+  background: #f0f7f9;
+}
+
+.light-theme .subheader,
+.light-theme .admonitionblock td.content > .title,
+.light-theme .audioblock > .title,
+.light-theme .exampleblock > .title,
+.light-theme .imageblock > .title,
+.light-theme .listingblock > .title,
+.light-theme .literalblock > .title,
+.light-theme .stemblock > .title,
+.light-theme .openblock > .title,
+.light-theme .paragraph > .title,
+.light-theme .quoteblock > .title,
+.light-theme table.tableblock > .title,
+.light-theme .verseblock > .title,
+.light-theme .videoblock > .title,
+.light-theme .dlist > .title,
+.light-theme .olist > .title,
+.light-theme .ulist > .title,
+.light-theme .qlist > .title,
+.light-theme .hdlist > .title {
+  color: #777777;
+}

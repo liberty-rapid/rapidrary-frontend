@@ -1,0 +1,26 @@
+.dark-theme .sidebarblock {
+  border: 1px solid #2d3748;
+  background: #1f2933;
+}
+
+.dark-theme .subheader,
+.dark-theme .admonitionblock td.content > .title,
+.dark-theme .audioblock > .title,
+.dark-theme .exampleblock > .title,
+.dark-theme .imageblock > .title,
+.dark-theme .listingblock > .title,
+.dark-theme .literalblock > .title,
+.dark-theme .stemblock > .title,
+.dark-theme .openblock > .title,
+.dark-theme .paragraph > .title,
+.dark-theme .quoteblock > .title,
+.dark-theme table.tableblock > .title,
+.dark-theme .verseblock > .title,
+.dark-theme .videoblock > .title,
+.dark-theme .dlist > .title,
+.dark-theme .olist > .title,
+.dark-theme .ulist > .title,
+.dark-theme .qlist > .title,
+.dark-theme .hdlist > .title {
+  color: #a0a0a0;
+}
