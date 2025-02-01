@@ -70,7 +70,7 @@ export default function BookCard({ book }: BookCardProps) {
             <a
                 href={`/${book.id}/${firstContent!.file}`}
                 role="button"
-                style={{ display: 'flex' }}
+                style={{ display: 'flex', width: '100%' }}
                 onClick={event => {
                     event.preventDefault();
                 }}
